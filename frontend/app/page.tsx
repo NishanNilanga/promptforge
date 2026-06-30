@@ -1,15 +1,15 @@
-import Button from "@/components/ui/button";
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-8">
-      <h1 className="text-6xl font-bold">
-        PromptForge 🚀
-      </h1>
+    <>
+      <Navbar />
 
-      <Button>
-        Get Started
-      </Button>
-    </main>
+      <main className="flex min-h-screen items-center justify-center bg-[#0B1020]">
+        <h1 className="text-6xl font-bold text-white">
+          PromptForge 🚀
+        </h1>
+      </main>
+    </>
   );
 }
